@@ -41,7 +41,7 @@ msgstr "Creado en"
 #. module: account_renumber
 #: model_terms:ir.ui.view,arch_db:account_renumber.view_account_renumber_form
 msgid "Date ranges"
-msgstr ""
+msgstr "Intervalos de fechas"
 
 #. module: account_renumber
 #: model:ir.model.fields,field_description:account_renumber.field_wizard_renumber__display_name
@@ -51,12 +51,12 @@ msgstr "Nombre mostrado"
 #. module: account_renumber
 #: model:ir.model.fields,field_description:account_renumber.field_wizard_renumber__date_to
 msgid "Finish date"
-msgstr ""
+msgstr "Fecha de finalización"
 
 #. module: account_renumber
 #: model:ir.model.fields,help:account_renumber.field_wizard_renumber__date_to
 msgid "Finish renumbering in this date, inclusive."
-msgstr ""
+msgstr "Terminar de renumerar en esta fecha, inclusive."
 
 #. module: account_renumber
 #: model:ir.model.fields,field_description:account_renumber.field_wizard_renumber__number_next
@@ -86,7 +86,7 @@ msgstr "Diarios"
 #. module: account_renumber
 #: model_terms:ir.ui.view,arch_db:account_renumber.view_account_renumber_form
 msgid "Journals to consider"
-msgstr ""
+msgstr "Diarios a considerar"
 
 #. module: account_renumber
 #: model:ir.model.fields,help:account_renumber.field_wizard_renumber__journal_ids
@@ -137,7 +137,7 @@ msgstr "Renumerar asientos contables"
 #: model:ir.actions.act_window,name:account_renumber.action_account_renumber
 #: model:ir.ui.menu,name:account_renumber.menu_account_renumber
 msgid "Renumber Journal Entries"
-msgstr ""
+msgstr "Renumerar entradas de diario"
 
 #. module: account_renumber
 #: code:addons/account_renumber/wizard/wizard_renumber.py:100
@@ -148,12 +148,12 @@ msgstr "Asientos contables renumerados"
 #. module: account_renumber
 #: model:ir.model.fields,help:account_renumber.field_wizard_renumber__date_from
 msgid "Start renumbering in this date, inclusive."
-msgstr ""
+msgstr "Empiece a numerar en esta fecha, inclusive."
 
 #. module: account_renumber
 #: model:ir.model.fields,field_description:account_renumber.field_wizard_renumber__date_from
 msgid "Starting date"
-msgstr ""
+msgstr "Fecha de inicio"
 
 #. module: account_renumber
 #: model_terms:ir.ui.view,arch_db:account_renumber.view_account_renumber_form
