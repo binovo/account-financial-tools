@@ -9,7 +9,7 @@
     'license': 'AGPL-3',
     'author': 'ForgeFlow, Odoo Community Association (OCA)',
     'website': 'https://github.com/OCA/account-financial-tools',
-    'installable': True,
+    'installable': False,
     'depends': [
         'account',
     ],
