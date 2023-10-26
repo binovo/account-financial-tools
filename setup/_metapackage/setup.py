@@ -22,6 +22,7 @@ setuptools.setup(
         'odoo12-addon-account_fiscal_month',
         'odoo12-addon-account_fiscal_position_vat_check',
         'odoo12-addon-account_fiscal_year',
+        'odoo12-addon-account_fiscal_year_auto_create',
         'odoo12-addon-account_group_menu',
         'odoo12-addon-account_invoice_constraint_chronology',
         'odoo12-addon-account_invoice_currency',
@@ -35,6 +36,8 @@ setuptools.setup(
         'odoo12-addon-account_move_chatter',
         'odoo12-addon-account_move_fiscal_month',
         'odoo12-addon-account_move_fiscal_year',
+        'odoo12-addon-account_move_line_drilldown',
+        'odoo12-addon-account_move_line_partner_country',
         'odoo12-addon-account_move_line_purchase_info',
         'odoo12-addon-account_move_line_tax_editable',
         'odoo12-addon-account_move_template',
@@ -44,6 +47,7 @@ setuptools.setup(
         'odoo12-addon-account_permanent_lock_move',
         'odoo12-addon-account_renumber',
         'odoo12-addon-account_spread_cost_revenue',
+        'odoo12-addon-account_subsequence_fiscal_year',
         'odoo12-addon-account_tag_menu',
         'odoo12-addon-account_template_active',
         'odoo12-addon-account_type_menu',
@@ -53,5 +57,6 @@ setuptools.setup(
     classifiers=[
         'Programming Language :: Python',
         'Framework :: Odoo',
+        'Framework :: Odoo :: 12.0',
     ]
 )

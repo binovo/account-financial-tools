@@ -4,12 +4,12 @@
 {
     "name": "Cost-Revenue Spread",
     "summary": "Spread costs and revenues over a custom period",
-    "version": "12.0.1.2.0",
+    "version": "12.0.1.2.1",
     "development_status": "Beta",
     "author": "Onestein,Odoo Community Association (OCA)",
     "maintainers": ["astirpe"],
     "license": "AGPL-3",
-    "website": "https://github.com/OCA/account-financial-tools/",
+    "website": "https://github.com/OCA/account-financial-tools",
     "category": "Accounting & Finance",
     "depends": [
         "account",
