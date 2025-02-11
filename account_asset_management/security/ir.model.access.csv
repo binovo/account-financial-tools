@@ -6,6 +6,7 @@ access_account_asset_invoice,account.asset,model_account_asset,account.group_acc
 access_account_asset_user,account.asset,model_account_asset,account.group_account_user,1,1,1,1
 access_account_asset_manager,account.asset,model_account_asset,account.group_account_manager,1,1,1,1
 access_account_asset_line_invoice,account.asset.line,model_account_asset_line,account.group_account_invoice,1,1,1,1
+access_account_asset_line_readonly,account.asset.line.readonly,model_account_asset_line,account.group_account_readonly,1,1,1,1
 access_account_asset_line_user,account.asset.line,model_account_asset_line,account.group_account_user,1,1,1,1
 access_account_asset_line_manager,account.asset.line,model_account_asset_line,account.group_account_manager,1,1,1,1
 access_account_asset_recompute_trigger_user,account.asset.recompute.trigger,model_account_asset_recompute_trigger,account.group_account_user,1,1,1,1
