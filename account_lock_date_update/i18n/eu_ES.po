@@ -1,0 +1,124 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_lock_date_update
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-21 12:46+0000\n"
+"PO-Revision-Date: 2025-11-21 12:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_lock_date_update
+#: model_terms:ir.ui.view,arch_db:account_lock_date_update.account_update_lock_date_form_view
+msgid "Cancel"
+msgstr "Utzi"
+
+#. module: account_lock_date_update
+#: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__company_id
+msgid "Company"
+msgstr "Enpresa"
+
+#. module: account_lock_date_update
+#: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__create_uid
+msgid "Created by"
+msgstr "Nork sortua"
+
+#. module: account_lock_date_update
+#: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__create_date
+msgid "Created on"
+msgstr "Noiz sortua"
+
+#. module: account_lock_date_update
+#: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__display_name
+msgid "Display Name"
+msgstr "Izena erakutsi"
+
+#. module: account_lock_date_update
+#: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__id
+msgid "ID"
+msgstr "IDa"
+
+#. module: account_lock_date_update
+#: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date____last_update
+msgid "Last Modified on"
+msgstr "Azken aldatze-data:"
+
+#. module: account_lock_date_update
+#: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__write_uid
+msgid "Last Updated by"
+msgstr "Nork eguneratua"
+
+#. module: account_lock_date_update
+#: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__write_date
+msgid "Last Updated on"
+msgstr "Noiz eguneratua"
+
+#. module: account_lock_date_update
+#: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__fiscalyear_lock_date
+msgid "Lock Date for All Users"
+msgstr "Erabiltzaile guztien blokeo-data"
+
+#. module: account_lock_date_update
+#: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__period_lock_date
+msgid "Lock Date for Non-Advisers"
+msgstr "Aholkulariak ez direnen blokeo-data"
+
+#. module: account_lock_date_update
+#: model:ir.model.fields,help:account_lock_date_update.field_account_update_lock_date__tax_lock_date
+msgid ""
+"No users can edit journal entries related to a tax prior and inclusive of "
+"this date."
+msgstr ""
+"Erabiltzaileek ezin dituzte editatu data honen aurreko eta data honetako zergekin lotutako egunkari-idazpenak."
+
+#. module: account_lock_date_update
+#: model:ir.model.fields,help:account_lock_date_update.field_account_update_lock_date__fiscalyear_lock_date
+msgid ""
+"No users, including Advisers, can edit accounts prior to and inclusive of "
+"this date. Use it for fiscal year locking for example."
+msgstr ""
+"Erabiltzaileek, aholkulariek barne, ezin dituzte editatu data honen aurreko eta data honetako kontuak. Besteak beste, zerga-urte bat blokeatzeko erabil dezakezu."
+
+#. module: account_lock_date_update
+#: model:ir.model.fields,help:account_lock_date_update.field_account_update_lock_date__period_lock_date
+msgid ""
+"Only users with the 'Adviser' role can edit accounts prior to and inclusive "
+"of this date. Use it for period locking inside an open fiscal year, for "
+"example."
+msgstr ""
+"'Aholkulari' funtzioa duten erabiltzaileek soilik edita ditzakete data horren aurreko eta data horretako kontuak. Besteak beste, zerga-urteen baitan epeak blokeatzeko erabili ditzakezu."
+
+#. module: account_lock_date_update
+#: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__tax_lock_date
+msgid "Tax Lock Date"
+msgstr "Zergen blokeo-data"
+
+#. module: account_lock_date_update
+#: model_terms:ir.ui.view,arch_db:account_lock_date_update.account_update_lock_date_form_view
+msgid "Update"
+msgstr "Eguneratu"
+
+#. module: account_lock_date_update
+#: model:ir.actions.act_window,name:account_lock_date_update.account_update_lock_date_act_window
+#: model:ir.ui.menu,name:account_lock_date_update.account_update_lock_date_menu
+msgid "Update Lock Dates"
+msgstr "Eguneratu blokeo-datak"
+
+#. module: account_lock_date_update
+#: model:ir.model,name:account_lock_date_update.model_account_update_lock_date
+msgid "Wizard to Update Accounting Lock Dates"
+msgstr "Kontabilitateko blokeo-datak eguneratzeko morroia"
+
+#. module: account_lock_date_update
+#. odoo-python
+#: code:addons/account_lock_date_update/wizards/account_update_lock_date.py:0
+#, python-format
+msgid "You are not allowed to execute this action."
+msgstr "Ez duzu ekintza hori gauzatzeko baimenik."
