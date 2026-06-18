@@ -23,7 +23,7 @@ msgid ""
 "\n"
 "Error while processing asset '{ref}': {exception}"
 msgstr ""
-"Errorea "{ref}" aktiboa prozesatzean: {exception}"
+"Errorea '{ref}' aktiboa prozesatzean: {exception}"
 
 #. module: account_asset_management
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_profile_view_form

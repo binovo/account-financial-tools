@@ -200,7 +200,7 @@ msgid ""
 "Determines where the tax is selectable. Note : 'None' means a tax can't be "
 "used by itself, however it can still be used in a group."
 msgstr ""
-"Zehaztu zerga non hauta daitekeen. Oharra: "Bat ere ez" egoerak adierazten du zerga ezin dela bere horretan erabili, baina taldean erabil daitekeela."
+"Zehaztu zerga non hauta daitekeen. Oharra: 'Bat ere ez' egoerak adierazten du zerga ezin dela bere horretan erabili, baina taldean erabil daitekeela."
 
 #. module: account_chart_update
 #. odoo-python
