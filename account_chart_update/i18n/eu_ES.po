@@ -1,19 +1,35 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# 	* account_chart_update
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 12:46+0000\n"
-"PO-Revision-Date: 2025-11-21 12:46+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: 2026-06-19 13:14+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#~ # Translation of Odoo Server.
+#~ # This file contains the translation of the following modules:
+#~ # 	* account_chart_update
+#~ #
+#~ msgid ""
+#~ msgstr ""
+#~ "Project-Id-Version: Odoo Server 16.0\n"
+#~ "Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-06-18 08:48+0000\n"
+"Last-Translator: iaranburu <iaranburu@binovo.es>\n"
+"Language-Team: none\n"
+"Language: eu_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts__code_digits
@@ -44,8 +60,7 @@ msgstr "Kontu-taldearen txantiloia"
 #: model:ir.model,name:account_chart_update.model_wizard_update_charts_accounts_account_group
 msgid ""
 "Account group that needs to be updated (new or updated in the template)."
-msgstr ""
-"Eguneratu beharreko kontu-taldea (berria edo txantiloian eguneratua)."
+msgstr "Eguneratu beharreko kontu-taldea (berria edo txantiloian eguneratua)."
 
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts_account_group__update_account_group_id
@@ -200,7 +215,8 @@ msgid ""
 "Determines where the tax is selectable. Note : 'None' means a tax can't be "
 "used by itself, however it can still be used in a group."
 msgstr ""
-"Zehaztu zerga non hauta daitekeen. Oharra: 'Bat ere ez' egoerak adierazten du zerga ezin dela bere horretan erabili, baina taldean erabil daitekeela."
+"Zehaztu zerga non hauta daitekeen. Oharra: 'Bat ere ez' egoerak adierazten "
+"du zerga ezin dela bere horretan erabili, baina taldean erabil daitekeela."
 
 #. module: account_chart_update
 #. odoo-python
@@ -244,12 +260,15 @@ msgid ""
 "Existing account groups are updated. Account groups are searched by "
 "prefix_code_start."
 msgstr ""
-"Lehendik dauden kontu-taldeak eguneratuko dira. Kontu-taldeak honen arabera bilatuko dira: prefix_code_start."
+"Lehendik dauden kontu-taldeak eguneratuko dira. Kontu-taldeak honen arabera "
+"bilatuko dira: prefix_code_start."
 
 #. module: account_chart_update
 #: model:ir.model.fields,help:account_chart_update.field_wizard_update_charts_accounts__update_account
 msgid "Existing accounts are updated. Accounts are searched by code."
-msgstr "Lehendik dauden kontuak eguneratuko dira. Kontuak kodearen arabera bilatuko dira."
+msgstr ""
+"Lehendik dauden kontuak eguneratuko dira. Kontuak kodearen arabera bilatuko "
+"dira."
 
 #. module: account_chart_update
 #: model:ir.model.fields,help:account_chart_update.field_wizard_update_charts_accounts__update_fiscal_position
@@ -257,12 +276,15 @@ msgid ""
 "Existing fiscal positions are updated. Fiscal positions are searched by "
 "name."
 msgstr ""
-"Lehendik dauden posizio fiskalak eguneratuko dira. Posizio fiskalak izenaren arabera bilatuko dira."
+"Lehendik dauden posizio fiskalak eguneratuko dira. Posizio fiskalak izenaren "
+"arabera bilatuko dira."
 
 #. module: account_chart_update
 #: model:ir.model.fields,help:account_chart_update.field_wizard_update_charts_accounts__update_tax
 msgid "Existing taxes are updated. Taxes are searched by name."
-msgstr "Lehendik dauden zergak eguneratuko dira. Zergak izenaren arabera bilatuko dira."
+msgstr ""
+"Lehendik dauden zergak eguneratuko dira. Zergak izenaren arabera bilatuko "
+"dira."
 
 #. module: account_chart_update
 #: model_terms:ir.ui.view,arch_db:account_chart_update.view_update_multi_chart
@@ -313,7 +335,9 @@ msgid ""
 "For records searched by name (taxes, fiscal positions), the template name "
 "will be matched against the record name on this language."
 msgstr ""
-"Izenaren arabera bilatutako erregistroen kasuan (esaterako, zergak edo posizio fiskalak), txantiloiaren izenak hizkuntza honetako erregistro-izenaren txantiloiarekin bat etorriko dira."
+"Izenaren arabera bilatutako erregistroen kasuan (esaterako, zergak edo "
+"posizio fiskalak), txantiloiaren izenak hizkuntza honetako erregistro-"
+"izenaren txantiloiarekin bat etorriko dira."
 
 #. module: account_chart_update
 #: model_terms:ir.ui.view,arch_db:account_chart_update.view_update_multi_chart
@@ -354,7 +378,8 @@ msgid ""
 "If set, the wizard will continue to the next step even if there are minor "
 "errors."
 msgstr ""
-"Ezarrita badago, laguntzailea hurrengo urratsera pasako da, nahiz eta erroreak egon."
+"Ezarrita badago, laguntzailea hurrengo urratsera pasako da, nahiz eta "
+"erroreak egon."
 
 #. module: account_chart_update
 #: model_terms:ir.ui.view,arch_db:account_chart_update.view_update_multi_chart
@@ -365,7 +390,8 @@ msgid ""
 msgstr ""
 "Aukera hauek ezarrita uzten badituzu, laguntzaileak,\n"
 "                                 erregistro berriak sortzeaz gain, \n"
-"                                aldaketak dauzkaten erregistroak ere eguneratuko ditu (adibidez, zergaren zenbateko desberdina)"
+"                                aldaketak dauzkaten erregistroak ere "
+"eguneratuko ditu (adibidez, zergaren zenbateko desberdina)"
 
 #. module: account_chart_update
 #: model:ir.model.fields,help:account_chart_update.field_wizard_update_charts_accounts__chart_template_ids
@@ -672,7 +698,8 @@ msgid ""
 "                            fiscal positions according to the selected chart\n"
 "                            template"
 msgstr ""
-"Morroi honek kontuak, zergak eta posizio fiskalak eguneratuko ditu hautatutako diagrama-txantiloiaren arabera"
+"Morroi honek kontuak, zergak eta posizio fiskalak eguneratuko ditu "
+"hautatutako diagrama-txantiloiaren arabera"
 
 #. module: account_chart_update
 #. odoo-python
@@ -717,7 +744,8 @@ msgstr "Eguneratu kontu taldeak"
 #. module: account_chart_update
 #: model:ir.model.fields,help:account_chart_update.field_wizard_update_charts_accounts__update_tax_repartition_line_account
 msgid "Update account_id field on existing Tax repartition lines"
-msgstr "Eguneratu account_id eremua lehendik dauden zergen banaketaren lerroetan"
+msgstr ""
+"Eguneratu account_id eremua lehendik dauden zergen banaketaren lerroetan"
 
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts__update_account
@@ -896,4 +924,6 @@ msgid ""
 "going to be created. Aborting as this will provoke an infinite loop. Please "
 "check if children have been matched, but not the parent one."
 msgstr ""
-"Gutxienez zergen txantiloi guraso baten kasuan (%s), dagozkion zerga haurrak ez dira sortuko. Utzi bertan behera prozesua, etengabeko errepikapen bat eragingo baitu. Egiaztatu ea haurrak bat-etorrarazi diren, baina ez gurasoa."
+"Gutxienez zergen txantiloi guraso baten kasuan (%s), dagozkion zerga haurrak "
+"ez dira sortuko. Utzi bertan behera prozesua, etengabeko errepikapen bat "
+"eragingo baitu. Egiaztatu ea haurrak bat-etorrarazi diren, baina ez gurasoa."

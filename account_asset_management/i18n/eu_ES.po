@@ -1,19 +1,35 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# 	* account_asset_management
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 12:46+0000\n"
-"PO-Revision-Date: 2025-11-21 12:46+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: 2026-06-19 13:13+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#~ # Translation of Odoo Server.
+#~ # This file contains the translation of the following modules:
+#~ # 	* account_asset_management
+#~ #
+#~ msgid ""
+#~ msgstr ""
+#~ "Project-Id-Version: Odoo Server 16.0\n"
+#~ "Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-06-18 07:57+0000\n"
+"Last-Translator: iaranburu <iaranburu@binovo.es>\n"
+"Language-Team: none\n"
+"Language: eu_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: account_asset_management
 #. odoo-python
@@ -23,7 +39,13 @@ msgid ""
 "\n"
 "Error while processing asset '{ref}': {exception}"
 msgstr ""
+"\n"
 "Errorea '{ref}' aktiboa prozesatzean: {exception}"
+
+#. module: account_asset_management
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__depreciation_count
+msgid "# of Depreciation Lines"
+msgstr ""
 
 #. module: account_asset_management
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_profile_view_form
@@ -31,7 +53,8 @@ msgid ""
 "<span class=\"o_form_label oe_inline\" "
 "attrs=\"{'invisible':[('salvage_type','!=','percent')]}\">%</span>"
 msgstr ""
-"<span class=\"o_form_label oe_inline\" attrs=\"{'invisible':[('salvage_type','!=','percent')]}\">%</span>"
+"<span class=\"o_form_label oe_inline\" attrs=\"{'invisible':["
+"('salvage_type','!=','percent')]}\">%</span>"
 
 #. module: account_asset_management
 #: model_terms:ir.ui.view,arch_db:account_asset_management.view_move_form
@@ -103,7 +126,9 @@ msgstr "Gehitu barne-ohar bat hemen..."
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset_compute__date_end
 msgid "All depreciation lines prior to this date will be automatically posted"
-msgstr "Data honen aurreko amortizazio-lerro guztiak automatikoki kontabilizatuko dira"
+msgstr ""
+"Data honen aurreko amortizazio-lerro guztiak automatikoki kontabilizatuko "
+"dira"
 
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__allow_reversal
@@ -119,6 +144,11 @@ msgstr "Zenbatekoa"
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_line__depreciated_value
 msgid "Amount Already Depreciated"
 msgstr "Amortizatutako zenbatekoa"
+
+#. module: account_asset_management
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__depreciation_value
+msgid "Amount of Depreciation Lines"
+msgstr ""
 
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__analytic_distribution
@@ -159,8 +189,10 @@ msgstr "Ziur zaude?"
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_asset
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_line__asset_id
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__asset_id
 #: model:ir.model.fields,field_description:account_asset_management.field_account_move_line__asset_id
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_view_form
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
 msgid "Asset"
 msgstr "Aktiboa"
 
@@ -221,6 +253,7 @@ msgstr "Aktibo Izena"
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__profile_id
 #: model:ir.model.fields,field_description:account_asset_management.field_account_move_line__asset_profile_id
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_profile_view_search
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
 msgid "Asset Profile"
 msgstr "Aktiboaren profila"
 
@@ -271,6 +304,7 @@ msgstr "Aktiboaren izena lerroaren etiketan ezarri behar da."
 
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_asset_profile
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__asset_profile_id
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_profile_view_form
 msgid "Asset profile"
 msgstr "Aktiboaren profila"
@@ -294,6 +328,30 @@ msgid "Assets"
 msgstr "Aktiboak"
 
 #. module: account_asset_management
+#: model:ir.actions.act_window,name:account_asset_management.action_account_asset_report
+#: model:ir.model,name:account_asset_management.model_account_asset_report
+#: model_terms:ir.ui.view,arch_db:account_asset_management.action_account_asset_report_graph
+#: model_terms:ir.ui.view,arch_db:account_asset_management.action_account_asset_report_pivot
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
+msgid "Assets Analysis"
+msgstr ""
+
+#. module: account_asset_management
+#: model:ir.ui.menu,name:account_asset_management.menu_action_account_asset_report
+msgid "Assets analysis"
+msgstr ""
+
+#. module: account_asset_management
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
+msgid "Assets in draft state"
+msgstr ""
+
+#. module: account_asset_management
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
+msgid "Assets in running state"
+msgstr ""
+
+#. module: account_asset_management
 #. odoo-python
 #: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
@@ -313,7 +371,11 @@ msgid ""
 " this setting, an accounting entry will be created by product item. So, "
 "there will be an asset by product item."
 msgstr ""
-"Fakturak baliozkotzean aktibo bat sortuko da lehenespenez faktura-lerro bakoitzeko, baldin eta kontabilitate-idazpen bat sortzen bada faktura-lerro bakoitzeko. Ezarpen horren bidez, kontabilitate-idazpen bat sortuko da produktuaren elementu bakoitzeko. Beraz, aktibo bat egongo da produktuaren elementu bakoitzeko."
+"Fakturak baliozkotzean aktibo bat sortuko da lehenespenez faktura-lerro "
+"bakoitzeko, baldin eta kontabilitate-idazpen bat sortzen bada faktura-lerro "
+"bakoitzeko. Ezarpen horren bidez, kontabilitate-idazpen bat sortuko da "
+"produktuaren elementu bakoitzeko. Beraz, aktibo bat egongo da produktuaren "
+"elementu bakoitzeko."
 
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__days_calc
@@ -336,7 +398,8 @@ msgid ""
 "Check this if you want to automatically confirm the assets of this profile "
 "when created by invoices."
 msgstr ""
-"Hautatu aukera hau kategoria honetako aktiboak automatikoki berretsi nahi badituzu haiek fakturetatik sortzen direnean."
+"Hautatu aukera hau kategoria honetako aktiboak automatikoki berretsi nahi "
+"badituzu haiek fakturetatik sortzen direnean."
 
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_group__child_ids
@@ -353,7 +416,8 @@ msgid ""
 msgstr ""
 "Aukeratu datak eta amortizazio-lerroak kalkulatzeko metodoa.\n"
 "   * Urte-kopurua: zehaztu amortizazioaren urte-kopurua.\n"
-"   * Amortizazio-kopurua: ezarri amortizazio-lerroen kopurua eta bi amortizazioen arteko denbora."
+"   * Amortizazio-kopurua: ezarri amortizazio-lerroen kopurua eta bi "
+"amortizazioen arteko denbora.\n"
 
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset__method
@@ -367,11 +431,17 @@ msgid ""
 "   * Degressive-Limit: Degressive up to Salvage Value. The Depreciation Base is equal to the asset value."
 msgstr ""
 "Aukeratu amortizazio-lerroak kalkulatzeko metodoa.\n"
-"  * Lineala: honen arabera kalkulatuta: amortizazio-oinarria / amortizazio-kopurua. Amortizazioaren oinarria = Erosketa-balioa - Hondar-balioa.\n"
-"  * Lineala-muga: lineala hondar-baliora bitarte. Amortizazioaren oinarria = Erosketa-balioa.\n"
-"  * Beherakorra: honen arabera kalkulatuta: hondar-balioa * Faktore beherakorra.\n"
-"  * Beherakor-lineala (epea = urtea denerako soilik): beherakorra lineal bihurtzen da urteko amortizazio linealak urteko amortizazio beherakorra gainditzen duenean.\n"
-"   * Beherakorra-muga: beherakorra hondar-baliora bitarte. Amortizazioaren oinarria aktiboaren balioaren berdina da."
+"  * Lineala: honen arabera kalkulatuta: amortizazio-oinarria / amortizazio-"
+"kopurua. Amortizazioaren oinarria = Erosketa-balioa - Hondar-balioa.\n"
+"  * Lineala-muga: lineala hondar-baliora bitarte. Amortizazioaren oinarria = "
+"Erosketa-balioa.\n"
+"  * Beherakorra: honen arabera kalkulatuta: hondar-balioa * Faktore "
+"beherakorra.\n"
+"  * Beherakor-lineala (epea = urtea denerako soilik): beherakorra lineal "
+"bihurtzen da urteko amortizazio linealak urteko amortizazio beherakorra "
+"gainditzen duenean.\n"
+"   * Beherakorra-muga: beherakorra hondar-baliora bitarte. Amortizazioaren "
+"oinarria aktiboaren balioaren berdina da."
 
 #. module: account_asset_management
 #: model:ir.model.fields.selection,name:account_asset_management.selection__account_asset__state__close
@@ -391,7 +461,9 @@ msgstr "Kodea"
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__company_id
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_recompute_trigger__company_id
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_remove__company_id
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__company_id
 #: model:ir.model.fields,field_description:account_asset_management.field_wiz_account_asset_report__company_id
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
 msgid "Company"
 msgstr "Enpresa"
 
@@ -516,8 +588,19 @@ msgstr "Noiz sortua"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_compute__date_end
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_line__line_date
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__date
 msgid "Date"
 msgstr "Data"
+
+#. module: account_asset_management
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
+msgid "Date of asset purchase"
+msgstr ""
+
+#. module: account_asset_management
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
+msgid "Date of depreciation"
+msgstr ""
 
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset_recompute_trigger__date_trigger
@@ -532,7 +615,9 @@ msgstr "Egunak"
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_account__asset_profile_id
 msgid "Default Asset Profile when creating invoice lines with this account."
-msgstr "Kontu honekin faktura-lerroak sortzen direnerako aktiboaren profil lehenetsia."
+msgstr ""
+"Kontu honekin faktura-lerroak sortzen direnerako aktiboaren profil "
+"lehenetsia."
 
 #. module: account_asset_management
 #. odoo-python
@@ -610,6 +695,11 @@ msgid "Depreciation Board"
 msgstr "Amortizazio-taula"
 
 #. module: account_asset_management
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__depreciation_date
+msgid "Depreciation Date"
+msgstr ""
+
+#. module: account_asset_management
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_profile_view_form
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_view_form
 msgid "Depreciation Dates"
@@ -632,6 +722,11 @@ msgid "Depreciation Method"
 msgstr "Amortizazio-metodoa"
 
 #. module: account_asset_management
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
+msgid "Depreciation Month"
+msgstr ""
+
+#. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_line__name
 msgid "Depreciation Name"
 msgstr "Amortizazioaren izena"
@@ -644,6 +739,7 @@ msgstr "Amortizazioaren izena"
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__display_name
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_recompute_trigger__display_name
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_remove__display_name
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__display_name
 #: model:ir.model.fields,field_description:account_asset_management.field_wiz_account_asset_report__display_name
 #: model:ir.model.fields,field_description:account_asset_management.field_wiz_asset_move_reverse__display_name
 msgid "Display Name"
@@ -657,6 +753,7 @@ msgstr "Eginda"
 #. module: account_asset_management
 #: model:ir.model.fields.selection,name:account_asset_management.selection__account_asset__state__draft
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_view_search
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
 msgid "Draft"
 msgstr "Zirriborroa"
 
@@ -739,6 +836,13 @@ msgid "Force accounting date"
 msgstr "Behartu kontabilitate-data"
 
 #. module: account_asset_management
+#: model_terms:ir.actions.act_window,help:account_asset_management.action_account_asset_report
+msgid ""
+"From this report, you can have an overview on all depreciations. The\n"
+"            search bar can also be used to personalize your assets depreciation reporting."
+msgstr ""
+
+#. module: account_asset_management
 #. odoo-python
 #: code:addons/account_asset_management/wizard/account_asset_remove.py:0
 #, python-format
@@ -768,6 +872,16 @@ msgid "Generate Report"
 msgstr "Sortu txostena"
 
 #. module: account_asset_management
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__gross_value
+msgid "Gross Amount"
+msgstr ""
+
+#. module: account_asset_management
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
+msgid "Group By"
+msgstr ""
+
+#. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__has_message
 msgid "Has Message"
 msgstr "Mezuak ditu"
@@ -790,6 +904,7 @@ msgstr "Historia"
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__id
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_recompute_trigger__id
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_remove__id
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__id
 #: model:ir.model.fields,field_description:account_asset_management.field_wiz_account_asset_report__id
 #: model:ir.model.fields,field_description:account_asset_management.field_wiz_asset_move_reverse__id
 msgid "ID"
@@ -831,7 +946,9 @@ msgstr ""
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_wiz_asset_move_reverse__journal_id
 msgid "If empty, uses the journal of the journal entry to be reversed."
-msgstr "Hutsik badago, leheneratu beharreko egunkari-idazpeneko egunkaria erabiltzen du."
+msgstr ""
+"Hutsik badago, leheneratu beharreko egunkari-idazpeneko egunkaria erabiltzen "
+"du."
 
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset__use_leap_years
@@ -840,8 +957,13 @@ msgid ""
 "If not set, the system will distribute evenly the amount to amortize across the years, based on the number of years. So the amount per year will be the depreciation base / number of years.\n"
 " If set, the system will consider if the current year is a leap year. The amount to depreciate per year will be calculated as depreciation base / (depreciation end date - start date + 1) * days in the current year."
 msgstr ""
-"Markatzen ez bada, sistemak modu uniformean banatuko du amortizatu beharreko zenbatekoa urteetan zehar, urte-kopuruaren arabera. Beraz, urteko zenbatekoa amortizazioaren oinarria / urte-kopurua izango da.\n"
-" Markatuta badago, sistemak bisurtetzat joko du uneko urtea. Urteko amortizatu beharreko zenbatekoa honela kalkulatuko da: amortizazioaren oinarria / (amortizazioaren amaiera-data - hasiera-data + 1)* uneko urteko egunak."
+"Markatzen ez bada, sistemak modu uniformean banatuko du amortizatu beharreko "
+"zenbatekoa urteetan zehar, urte-kopuruaren arabera. Beraz, urteko zenbatekoa "
+"amortizazioaren oinarria / urte-kopurua izango da.\n"
+" Markatuta badago, sistemak bisurtetzat joko du uneko urtea. Urteko "
+"amortizatu beharreko zenbatekoa honela kalkulatuko da: amortizazioaren "
+"oinarria / (amortizazioaren amaiera-data - hasiera-data + 1)* uneko urteko "
+"egunak."
 
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset_profile__allow_reversal
@@ -850,7 +972,9 @@ msgid ""
 "depreciation line will prompt the option to reverse the journal entry, "
 "instead of deleting them."
 msgstr ""
-"Ezarrita badago, argitaratutako amortizazio-lerro batean "Ezabatu/desegin mugimendua" botoia sakatzen bada, egunkari-idazpena aldatzeko aukera abiaraziko da, hura ezabatzeko aukeraren ordez."
+"Ezarrita badago, argitaratutako amortizazio-lerro batean \"Ezabatu/desegin "
+"mugimendua\" botoia sakatzen bada, egunkari-idazpena aldatzeko aukera "
+"abiaraziko da, hura ezabatzeko aukeraren ordez."
 
 #. module: account_asset_management
 #. odoo-python
@@ -883,7 +1007,9 @@ msgid ""
 "from the depreciation start date instead of the first day of the fiscal "
 "year."
 msgstr ""
-"Aktibo honen lehenengo amortizazio-idazpena amortizazioaren hasiera-datatik aurrera egin behar dela adierazten du, zerga-urtearen lehenengo egunetik aurrera egin ordez."
+"Aktibo honen lehenengo amortizazio-idazpena amortizazioaren hasiera-datatik "
+"aurrera egin behar dela adierazten du, zerga-urtearen lehenengo egunetik "
+"aurrera egin ordez."
 
 #. module: account_asset_management
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_view_form
@@ -939,6 +1065,7 @@ msgstr "Egunkari-elementuak"
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile____last_update
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_recompute_trigger____last_update
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_remove____last_update
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report____last_update
 #: model:ir.model.fields,field_description:account_asset_management.field_wiz_account_asset_report____last_update
 #: model:ir.model.fields,field_description:account_asset_management.field_wiz_asset_move_reverse____last_update
 msgid "Last Modified on"
@@ -1042,11 +1169,6 @@ msgid "New Acquisitions"
 msgstr "Erosketa berriak"
 
 #. module: account_asset_management
-#: model:ir.model.fields,field_description:account_asset_management.field_account_asset__activity_calendar_event_id
-msgid "Next Activity Calendar Event"
-msgstr "Hurrengo jardueraren egutegiko gertaera"
-
-#. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__activity_date_deadline
 msgid "Next Activity Deadline"
 msgstr "Hurrengo jardueraren epemuga"
@@ -1072,6 +1194,11 @@ msgstr "Hurrengo amortizazio-epea"
 #, python-format
 msgid "No"
 msgstr "Ez"
+
+#. module: account_asset_management
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
+msgid "Not archived"
+msgstr ""
 
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__note
@@ -1153,6 +1280,7 @@ msgstr "Bide-izen nagusia"
 
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__partner_id
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__partner_id
 msgid "Partner"
 msgstr "Bazkidea"
 
@@ -1202,8 +1330,20 @@ msgstr "Gainbalio-kontua"
 
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_line__move_check
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__move_check
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
 msgid "Posted"
 msgstr "Argitaratua"
+
+#. module: account_asset_management
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__posted_value
+msgid "Posted Amount"
+msgstr ""
+
+#. module: account_asset_management
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
+msgid "Posted depreciation lines"
+msgstr ""
 
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_line__previous_id
@@ -1223,6 +1363,11 @@ msgstr "Profila"
 #, python-format
 msgid "Prorata Temporis"
 msgstr "Prorata Temporis"
+
+#. module: account_asset_management
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
+msgid "Purchase Month"
+msgstr ""
 
 #. module: account_asset_management
 #. odoo-python
@@ -1269,15 +1414,18 @@ msgid ""
 "  * Gain/Loss on Sale: The Gain or Loss will be posted on the 'Plus-Value Account' or 'Min-Value Account' "
 msgstr ""
 "Partidak kentzeko politika\n"
-"  * Hondar-balioa: galdu ez den balioa 'Hondar-balioaren kontua' atalean argitaratuko da.\n"
-"  * Salmentaren irabazia/galera: irabazia edo galera 'Irabazitako balioaren kontua' edo 'Galdutako balioaren kontua” atalean argitaratuko da.'"
+"  * Hondar-balioa: galdu ez den balioa 'Hondar-balioaren kontua' atalean "
+"argitaratuko da.\n"
+"  * Salmentaren irabazia/galera: irabazia edo galera 'Irabazitako balioaren "
+"kontua' edo 'Galdutako balioaren kontua” atalean argitaratuko da.' "
 
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset_remove__date_remove
 msgid ""
 "Removal date must be after the last posted entry in case of early removal"
 msgstr ""
-"Kentze goiztiarren kasuan, kentze-datak argitaratutako azken partidaren ondorengoa izan behar du."
+"Kentze goiztiarren kasuan, kentze-datak argitaratutako azken partidaren "
+"ondorengoa izan behar du."
 
 #. module: account_asset_management
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_view_form
@@ -1348,11 +1496,13 @@ msgstr "Alderantzikatu mugimendua"
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_wiz_asset_move_reverse
 msgid "Reverse posted journal entry on depreciation line"
-msgstr "Alderantzikatu balio-galeraren lerroan argitaratutako egunkariko partida"
+msgstr ""
+"Alderantzikatu balio-galeraren lerroan argitaratutako egunkariko partida"
 
 #. module: account_asset_management
 #: model:ir.model.fields.selection,name:account_asset_management.selection__account_asset__state__open
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_view_search
+#: model_terms:ir.ui.view,arch_db:account_asset_management.view_account_asset_report_search
 msgid "Running"
 msgstr "Exekutatzen"
 
@@ -1391,7 +1541,8 @@ msgid ""
 "Set this flag for entries of previous fiscal years for which Odoo has not "
 "generated accounting entries."
 msgstr ""
-"Ezarri marka hau Odoo-ren kontabilitate-partidarik ez duten aurreko urte fiskaletako sarreretarako."
+"Ezarri marka hau Odoo-ren kontabilitate-partidarik ez duten aurreko urte "
+"fiskaletako sarreretarako."
 
 #. module: account_asset_management
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_view_form
@@ -1422,6 +1573,7 @@ msgstr "Aktiboaren egoera"
 #. odoo-python
 #: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__state
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__state
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_view_search
 #, python-format
 msgid "Status"
@@ -1448,7 +1600,8 @@ msgid ""
 "The '_compute_year_amount' method is only intended for Time Method 'Number "
 "of Years'."
 msgstr ""
-"'_compute_year_amount' metodoa 'Urte-kopurua' denbora-metodorako soilik pentsatuta dago."
+"'_compute_year_amount' metodoa 'Urte-kopurua' denbora-metodorako soilik "
+"pentsatuta dago."
 
 #. module: account_asset_management
 #. odoo-python
@@ -1456,8 +1609,7 @@ msgstr ""
 #, python-format
 msgid ""
 "The 'account' field is a mandatory entry of the '_xls_%s_fields' list !"
-msgstr ""
-"'Kontua' eremua beharrezkoa da '_xls_%s_fields' zerrendan!"
+msgstr "'Kontua' eremua beharrezkoa da '_xls_%s_fields' zerrendan!"
 
 #. module: account_asset_management
 #. odoo-python
@@ -1466,7 +1618,8 @@ msgstr ""
 msgid ""
 "The Asset Account defined in the Asset Profile must be equal to the account."
 msgstr ""
-"Aktiboaren profilean definitutako aktibo-kontua bat etorri behar da kontuarekin."
+"Aktiboaren profilean definitutako aktibo-kontua bat etorri behar da "
+"kontuarekin."
 
 #. module: account_asset_management
 #. odoo-python
@@ -1491,7 +1644,8 @@ msgid ""
 "The duration of the asset conflicts with the posted depreciation table entry"
 " dates."
 msgstr ""
-"Aktiboaren iraupena ez dator bat argitaratutako balio-galeraren taulako partida-datekin."
+"Aktiboaren iraupena ez dator bat argitaratutako balio-galeraren taulako "
+"partida-datekin."
 
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset__salvage_value
@@ -1500,7 +1654,8 @@ msgid ""
 "The estimated value that an asset will realize upon its sale at the end of its useful life.\n"
 "This value is used to determine the depreciation amounts."
 msgstr ""
-"Aktibo baten balio-bizitzaren amaieran hura saltzeak ekarriko duen balio estimatua.\n"
+"Aktibo baten balio-bizitzaren amaieran hura saltzeak ekarriko duen balio "
+"estimatua.\n"
 "Balio-galeraren zenbatekoa kalkulatzeko erabiltzen da balio hori."
 
 #. module: account_asset_management
@@ -1523,7 +1678,8 @@ msgid ""
 "This amount represent the depreciation base of the asset (Purchase Value - "
 "Salvage Value)."
 msgstr ""
-"Zenbateko honek aktiboaren balio-galeraren oinarria adierazten du (erosketa-balioa - salbamendu-balioa)."
+"Zenbateko honek aktiboaren balio-galeraren oinarria adierazten du (erosketa-"
+"balioa - salbamendu-balioa)."
 
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset__purchase_value
@@ -1591,6 +1747,11 @@ msgid "Undetermined error"
 msgstr "Errore zehaztugabea"
 
 #. module: account_asset_management
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_report__unposted_value
+msgid "Unposted Amount"
+msgstr ""
+
+#. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__use_leap_years
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__use_leap_years
 msgid "Use Leap Years"
@@ -1637,8 +1798,10 @@ msgid ""
 "When the removal entries are generated, the asset goes into the 'Removed' status."
 msgstr ""
 "Aktibo bat sortzen denean, egoera 'Zirriborroa' da.\n"
-"Aktiboa berresten bada, egoera 'Abian' gisa ezartzen da, eta kontabilitatean balio-galeraren lerroak gehi daitezke.\n"
-"Balio-galeraren azken lerroa argitaratzean, aktiboa 'Itxita' egoerara pasatzen da.\n"
+"Aktiboa berresten bada, egoera 'Abian' gisa ezartzen da, eta kontabilitatean "
+"balio-galeraren lerroak gehi daitezke.\n"
+"Balio-galeraren azken lerroa argitaratzean, aktiboa 'Itxita' egoerara "
+"pasatzen da.\n"
 "Kentzeko partidak sortzen direnean, aktiboa 'Kenduta' egoeran ezartzen da."
 
 #. module: account_asset_management
@@ -1687,7 +1850,8 @@ msgid ""
 "You can't make an early removal if all the depreciation lines for previous "
 "periods are not posted."
 msgstr ""
-"Ezin duzu egin kentze goiztiarrik aurreko aldietako balio-galeraren lerro guztiak argitaratu arte."
+"Ezin duzu egin kentze goiztiarrik aurreko aldietako balio-galeraren lerro "
+"guztiak argitaratu arte."
 
 #. module: account_asset_management
 #. odoo-python
@@ -1696,7 +1860,8 @@ msgstr ""
 msgid ""
 "You cannot change a depreciation line with an associated accounting entry."
 msgstr ""
-"Ezin da kontabilitate-partida bat lotuta daukan balio-galeraren lerro bat aldatu."
+"Ezin da kontabilitate-partida bat lotuta daukan balio-galeraren lerro bat "
+"aldatu."
 
 #. module: account_asset_management
 #. odoo-python
@@ -1705,7 +1870,8 @@ msgstr ""
 msgid ""
 "You cannot change an accounting entry linked to an asset depreciation line."
 msgstr ""
-"Ezin duzu aktibo baten balio-galeraren lerro batekin lotutako kontabilitate-partida bat aldatu."
+"Ezin duzu aktibo baten balio-galeraren lerro batekin lotutako kontabilitate-"
+"partida bat aldatu."
 
 #. module: account_asset_management
 #. odoo-python
@@ -1714,7 +1880,8 @@ msgstr ""
 msgid ""
 "You cannot change an accounting item linked to an asset depreciation line."
 msgstr ""
-"Ezin duzu aktibo baten balio-galeraren lerro batekin lotutako kontabilitate-elementu bat aldatu."
+"Ezin duzu aktibo baten balio-galeraren lerro batekin lotutako kontabilitate-"
+"elementu bat aldatu."
 
 #. module: account_asset_management
 #. odoo-python
@@ -1730,14 +1897,16 @@ msgstr "Ezin da kontabilitate-partidak dauzkan aktibo baten profila aldatu."
 msgid ""
 "You cannot delete a depreciation line with an associated accounting entry."
 msgstr ""
-"Ezin da kontabilitate-partida bat lotuta daukan balio-galeraren lerro bat ezabatu."
+"Ezin da kontabilitate-partida bat lotuta daukan balio-galeraren lerro bat "
+"ezabatu."
 
 #. module: account_asset_management
 #. odoo-python
 #: code:addons/account_asset_management/models/account_asset.py:0
 #, python-format
 msgid "You cannot delete an asset that contains posted depreciation lines."
-msgstr "Ezin duzu argitaratutako balio-galeraren lerroak dauzkan aktiborik ezabatu."
+msgstr ""
+"Ezin duzu argitaratutako balio-galeraren lerroak dauzkan aktiborik ezabatu."
 
 #. module: account_asset_management
 #. odoo-python
@@ -1754,14 +1923,17 @@ msgid ""
 "You cannot set the 'Initial Balance Entry' flag on a depreciation line with "
 "prior posted entries."
 msgstr ""
-"Ezin da 'Hasierako balantzearen partida' marka ezarri aurrez argitaratutako partidak dauzkan balio-galeraren lerro batean."
+"Ezin da 'Hasierako balantzearen partida' marka ezarri aurrez argitaratutako "
+"partidak dauzkan balio-galeraren lerro batean."
 
 #. module: account_asset_management
 #. odoo-python
 #: code:addons/account_asset_management/models/account_asset_line.py:0
 #, python-format
 msgid "You cannot set the Asset Start Date after already posted entries."
-msgstr "Ezin da aktiboaren hasiera-data lehendik argitaratuta dauden sarreren ondoren ezarri."
+msgstr ""
+"Ezin da aktiboaren hasiera-data lehendik argitaratuta dauden sarreren "
+"ondoren ezarri."
 
 #. module: account_asset_management
 #. odoo-python
@@ -1771,7 +1943,8 @@ msgid ""
 "You cannot set the date on a depreciation line prior to already posted "
 "entries."
 msgstr ""
-"Ezin da ezarri lehendik argitaratuta dauden partidak baino lehenagoko data bat balio-galeraren lerro batean."
+"Ezin da ezarri lehendik argitaratuta dauden partidak baino lehenagoko data "
+"bat balio-galeraren lerro batean."
 
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset__date_start
@@ -1780,7 +1953,9 @@ msgid ""
 "previous fiscal years if the Depreciation Start Date is different from the "
 "date for which accounting entries need to be generated."
 msgstr ""
-"Aurreko urte fiskaletako balio-galeren lerroak eskuz gehitu beharko zenituzke balio-galeraren hasiera-data ez badator bat kontabilitate-partidak sortuko diren egunarekin."
+"Aurreko urte fiskaletako balio-galeren lerroak eskuz gehitu beharko "
+"zenituzke balio-galeraren hasiera-data ez badator bat kontabilitate-partidak "
+"sortuko diren egunarekin."
 
 #. module: account_asset_management
 #: model_terms:ir.ui.view,arch_db:account_asset_management.wiz_account_asset_report_view_form
