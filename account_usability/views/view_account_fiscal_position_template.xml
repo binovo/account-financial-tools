@@ -34,9 +34,8 @@ License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
                     <field name="zip_from" />
                     <field name="zip_to" />
                 </group>
-                <group string="Note">
-                    <field name="note" nolabel="1" colspan="4" />
-                </group>
+                <separator string="Notes" />
+                <field name="note" placeholder="Internal notes..." />
             </field>
         </field>
     </record>
